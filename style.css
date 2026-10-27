@@ -78,7 +78,7 @@ a:hover { color: var(--muted); }
 .soon {
   font-family: var(--heading);
   font-weight: 700;
-  font-size: clamp(21px, 6vw, 28px);
+  font-size: clamp(18px, 5.6vw, 28px);
   color: var(--green);
   margin: 72px 0 0;
 }
