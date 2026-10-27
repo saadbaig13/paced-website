@@ -11,7 +11,6 @@
   --text: #1F2A00;
   --muted: #4A5232;
   --green: #8CBB00;
-  --pill-bg: #DDEEA6;
   --pill-text: #2F4200;
   --heading: "Providence Sans", system-ui, -apple-system, sans-serif;
   --body: system-ui, -apple-system, "SF Pro Text", sans-serif;
@@ -43,7 +42,7 @@ h1, h2, .wordmark, .lead {
   line-height: 1.15;
 }
 
-.dot { color: var(--green); }
+.hero h1, .home, .home:hover { color: var(--green); }
 
 a { color: var(--text); text-decoration-color: var(--green); text-underline-offset: 3px; text-decoration-thickness: 2px; }
 a:hover { color: var(--muted); }
@@ -73,18 +72,16 @@ a:hover { color: var(--muted); }
 .sub {
   color: var(--muted);
   font-size: 18px;
-  margin: 0 0 40px;
+  margin: 0;
   max-width: 32ch;
 }
 
-.pill {
-  display: inline-block;
-  background: var(--pill-bg);
-  color: var(--pill-text);
+.soon {
+  font-family: var(--heading);
   font-weight: 700;
-  font-size: 15px;
-  padding: 10px 20px;
-  border-radius: 999px;
+  font-size: 20px;
+  color: var(--pill-text);
+  margin: 72px 0 0;
 }
 
 /* Text pages */
