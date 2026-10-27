@@ -11,7 +11,6 @@
   --text: #1F2A00;
   --muted: #4A5232;
   --green: #8CBB00;
-  --pill-text: #2F4200;
   --heading: "Providence Sans", system-ui, -apple-system, sans-serif;
   --body: system-ui, -apple-system, "SF Pro Text", sans-serif;
   color-scheme: light;
@@ -79,8 +78,8 @@ a:hover { color: var(--muted); }
 .soon {
   font-family: var(--heading);
   font-weight: 700;
-  font-size: 20px;
-  color: var(--pill-text);
+  font-size: 26px;
+  color: var(--green);
   margin: 72px 0 0;
 }
 
